@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-BI-Analytics?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-BI-Analytics?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-BI-Analytics?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-BI-Analytics" alt="GitHub issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
@@ -61,60 +61,60 @@ The sector exhibits **moderate fragmentation with high concentration at the top*
 
 ## ⚡ Open-Source GitHub Projects
 
-*Ranked in descending order by GitHub Stars.*
+*Ranked in descending order by GitHub_Stars.*
 
-- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
   Open-source operational analytics, data visualization, and observability platform (AGPL-3.0). Supports SQL databases, ClickHouse, Prometheus, and multi-source dashboarding with a rich community plugin ecosystem.
 
-- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
   Enterprise-ready cloud-native BI web application (Apache-2.0). Features an intuitive no-code chart builder, SQL Lab query editor, lightweight semantic layer, granular security permissions, and native connectivity to virtually any SQL database.
 
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
   High-performance, column-oriented real-time analytical DBMS (Apache-2.0). Powers ultra-low-latency OLAP queries, interactive dashboards, and real-time event analytics over billions of records.
 
-- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
   User-friendly self-service business intelligence and dashboarding tool (AGPL-3.0). Features visual query builders for non-technical users, Metabot AI assistance, automated alerts, and seamless embedding into SaaS apps.
 
-- **[Streamlit](https://github.com/streamlit/streamlit)** [![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)  
+- **[Streamlit](https://github.com/streamlit/streamlit)** [![GitHub_Stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)  
   Open-source Python framework (Apache-2.0) that turns data scripts into shareable web apps, custom analytical calculators, machine learning interfaces, and exploratory BI dashboards in minutes.
 
-- **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+- **[Redash](https://github.com/getredash/redash)** [![GitHub_Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
   Open-source SQL query editor and visualization platform (BSD-2-Clause). Enables analysts to query data sources, build shareable dashboards with auto-refresh schedules, configure alert destinations, and integrate via REST API.
 
-- **[Dash (Plotly)](https://github.com/plotly/dash)** [![GitHub stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers)  
+- **[Dash (Plotly)](https://github.com/plotly/dash)** [![GitHub_Stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers)  
   Enterprise-grade framework (MIT) for building interactive analytical web applications in Python, R, and Julia without writing JavaScript. Integrates deeply with Plotly charts and data science pipelines.
 
-- **[Cube.js](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
+- **[Cube.js](https://github.com/cube-js/cube)** [![GitHub_Stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
   Universal semantic layer and headless BI platform (Apache-2.0). Provides centralized metric definitions, access control, pre-aggregations, SQL API, and GraphQL/REST APIs for building custom data apps and embedded BI.
 
-- **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+- **[Apache Doris](https://github.com/apache/doris)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
   High-performance, real-time analytical database based on MPP architecture (Apache-2.0). Known for extreme simplicity, sub-second reporting over massive tables, and native vector execution.
 
-- **[Apache Druid](https://github.com/apache/druid)** [![GitHub stars](https://img.shields.io/github/stars/apache/druid?style=social&color=white)](https://github.com/apache/druid/stargazers)  
+- **[Apache Druid](https://github.com/apache/druid)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/druid?style=social&color=white)](https://github.com/apache/druid/stargazers)  
   Distributed real-time analytics database (Apache-2.0) designed for sub-second streaming analytics and event-driven data architectures. Integrates natively with Apache Kafka and AWS Kinesis.
 
-- **[Jupyter Notebook](https://github.com/jupyter/notebook)** [![GitHub stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)  
+- **[Jupyter Notebook](https://github.com/jupyter/notebook)** [![GitHub_Stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)  
   Interactive computational notebook environment (BSD-3-Clause) widely adopted for statistical modeling, exploratory data analysis, chart prototyping, and collaborative data storytelling.
 
-- **[Trino](https://github.com/trinodb/trino)** [![GitHub stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
+- **[Trino](https://github.com/trinodb/trino)** [![GitHub_Stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
   Fast distributed SQL query engine for big data analytics (Apache-2.0). Executes federated interactive queries against data lakes (S3, Iceberg, Delta Lake), relational databases, and NoSQL systems.
 
-- **[Databend](https://github.com/datafuselabs/databend)** [![GitHub stars](https://img.shields.io/github/stars/datafuselabs/databend)](https://github.com/datafuselabs/databend/stargazers)  
+- **[Databend](https://github.com/datafuselabs/databend)** [![GitHub_Stars](https://img.shields.io/github/stars/datafuselabs/databend)](https://github.com/datafuselabs/databend/stargazers)  
   Modern cloud-native elastic analytics engine and lakehouse data warehouse written in Rust (Apache-2.0), optimized for object storage and cost-efficient BI workloads.
 
-- **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
+- **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub_Stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
   Code-driven business intelligence framework (MIT). Allows engineers to build fast, markdown-based reporting pages with SQL queries, component loops, and version-controlled Git workflows.
 
-- **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
+- **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub_Stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
   Modern open-source BI platform natively integrated with dbt (MIT). Converts dbt semantic models and YAML schemas into self-serve metrics, exploratory pivot tables, and interactive dashboards.
 
-- **[Rill](https://github.com/rilldata/rill)** [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
+- **[Rill](https://github.com/rilldata/rill)** [![GitHub_Stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
   Fast operational BI tool and metrics engine built with DuckDB and Apache Arrow (Apache-2.0). Offers instant local profiling, code-based dashboards, and rapid cloud deployment.
 
-- **[Malloy](https://github.com/malloydata/malloy)** [![GitHub stars](https://img.shields.io/github/stars/malloydata/malloy?style=social&color=white)](https://github.com/malloydata/malloy/stargazers)  
+- **[Malloy](https://github.com/malloydata/malloy)** [![GitHub_Stars](https://img.shields.io/github/stars/malloydata/malloy?style=social&color=white)](https://github.com/malloydata/malloy/stargazers)  
   Experimental open-source data modeling language and query compiler (Apache-2.0) designed by the creators of Looker/LookML to synthesize complex nested aggregations and semantic data models.
 
-- **[Knowage](https://github.com/KnowageLabs/Knowage-Server)** [![GitHub stars](https://img.shields.io/github/stars/KnowageLabs/Knowage-Server?style=social&color=white)](https://github.com/KnowageLabs/Knowage-Server/stargazers)  
+- **[Knowage](https://github.com/KnowageLabs/Knowage-Server)** [![GitHub_Stars](https://img.shields.io/github/stars/KnowageLabs/Knowage-Server?style=social&color=white)](https://github.com/KnowageLabs/Knowage-Server/stargazers)  
   Open-source enterprise business analytics suite (AGPL-3.0). Supports enterprise reporting, self-service ad-hoc analysis, KPI performance cockpits, location intelligence, and predictive scripts.
 
 ---
