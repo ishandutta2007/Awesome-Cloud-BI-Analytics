@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="barGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.05); }
+    }
+    @keyframes barWave1 {
+      0%, 100% { height: 110px; y: 190px; }
+      50% { height: 160px; y: 140px; }
+    }
+    @keyframes barWave2 {
+      0%, 100% { height: 170px; y: 130px; }
+      50% { height: 90px; y: 210px; }
+    }
+    @keyframes barWave3 {
+      0%, 100% { height: 130px; y: 170px; }
+      50% { height: 190px; y: 110px; }
+    }
+    @keyframes barWave4 {
+      0%, 100% { height: 180px; y: 120px; }
+      50% { height: 120px; y: 180px; }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -400; }
+    }
+    @keyframes floatOrb {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-15px) translateX(10px); }
+    }
+    .animated-bar-1 { animation: barWave1 4s ease-in-out infinite; }
+    .animated-bar-2 { animation: barWave2 5s ease-in-out infinite; }
+    .animated-bar-3 { animation: barWave3 4.5s ease-in-out infinite; }
+    .animated-bar-4 { animation: barWave4 3.8s ease-in-out infinite; }
+    .spark-line {
+      stroke-dasharray: 12, 6;
+      animation: dashMove 14s linear infinite;
+    }
+    .ambient-orb {
+      animation: floatOrb 8s ease-in-out infinite alternate;
+    }
+    .badge-pill {
+      transition: all 0.3s;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="340" rx="20" fill="url(#bgGrad)" />
+
+  <!-- Subdued Grid Overlay -->
+  <rect width="1200" height="340" rx="20" fill="url(#grid)" />
+
+  <!-- Background Ambient Glow Circles -->
+  <circle cx="150" cy="80" r="140" fill="#38bdf8" opacity="0.12" filter="url(#glow)" class="ambient-orb" />
+  <circle cx="1050" cy="240" r="180" fill="#818cf8" opacity="0.15" filter="url(#glow)" class="ambient-orb" />
+  <circle cx="600" cy="300" r="160" fill="#c084fc" opacity="0.10" filter="url(#glow)" />
+
+  <!-- Background Animated Analytics Chart (Subdued / Behind Foreground Text) -->
+  <g opacity="0.45">
+    <!-- Chart Bars (Right aligned, semi-transparent) -->
+    <rect class="animated-bar-1" x="870" y="180" width="28" height="120" rx="6" fill="url(#barGrad1)" />
+    <rect class="animated-bar-2" x="915" y="140" width="28" height="160" rx="6" fill="url(#barGrad2)" />
+    <rect class="animated-bar-3" x="960" y="160" width="28" height="140" rx="6" fill="url(#barGrad1)" />
+    <rect class="animated-bar-4" x="1005" y="120" width="28" height="180" rx="6" fill="url(#barGrad2)" />
+    <rect class="animated-bar-1" x="1050" y="170" width="28" height="130" rx="6" fill="url(#barGrad1)" />
+    <rect class="animated-bar-3" x="1095" y="130" width="28" height="170" rx="6" fill="url(#barGrad2)" />
+
+    <!-- Animated Trend Line -->
+    <path class="spark-line" d="M 720,240 Q 820,180 920,220 T 1120,140" fill="none" stroke="url(#lineGrad)" stroke-width="3" opacity="0.85" />
+    <circle cx="920" cy="220" r="5" fill="#38bdf8" />
+    <circle cx="1120" cy="140" r="6" fill="#ec4899" filter="url(#glow)" />
+  </g>
+
+  <!-- Foreground Content Area (Clean, High Contrast, Prominent) -->
+  <g transform="translate(60, 0)">
+    <!-- Header Tag / Category Pill -->
+    <g transform="translate(0, 52)">
+      <rect width="250" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+      <circle cx="18" cy="16" r="5" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#94a3b8" letter-spacing="1.2">CURATED ECOSYSTEM GUIDE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="900" fill="url(#textGrad)" letter-spacing="-0.5">
+      Awesome Cloud BI &amp; Analytics
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#cbd5e1">
+      Enterprise SaaS Platforms, Open-Source Engines &amp; Embedded Semantic Layers
+    </text>
+
+    <!-- Feature Pills / Highlights -->
+    <g transform="translate(0, 225)">
+      <!-- Pill 1 -->
+      <g>
+        <rect width="180" height="38" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.2" />
+        <text x="20" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">☁️ Cloud BI &amp; SaaS</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(196, 0)">
+        <rect width="195" height="38" rx="10" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1.2" />
+        <text x="20" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">⚡ Open Source BI</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(407, 0)">
+        <rect width="215" height="38" rx="10" fill="#0f172a" stroke="#c084fc" stroke-opacity="0.5" stroke-width="1.2" />
+        <text x="20" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">📊 Semantic Modeling</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(638, 0)">
+        <rect width="180" height="38" rx="10" fill="#0f172a" stroke="#34d399" stroke-opacity="0.5" stroke-width="1.2" />
+        <text x="20" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">🚀 Real-Time OLAP</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Border Accent Outline -->
+  <rect width="1200" height="340" rx="20" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+</svg>

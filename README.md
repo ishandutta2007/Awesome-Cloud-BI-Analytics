@@ -1,49 +1,48 @@
-# Awesome-Cloud-BI-Analytics
-# Awesome-Cloud-BI-Analytics
+<div align="center">
 
-# Awesome-Cloud-BI-Analytics
+<img src="./assets/banner.svg" alt="Awesome Cloud BI & Analytics Banner" width="100%" />
 
-## Top Cloud BI Analytics Ecosystem
+# 📊 Awesome Cloud BI & Analytics ☁️
 
+**A Curated Directory of Enterprise SaaS Platforms & Open-Source Cloud BI Analytics Engines**
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-BI-Analytics?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-BI-Analytics?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-BI-Analytics" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-BI-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Empowering data teams, BI engineers, and modern analytics leaders with interactive dashboards, semantic layers, real-time OLAP engines, and embedded analytics solutions.*
 
-*Focused on Business Intelligence, Data Visualization & Embedded Analytics*  
+</div>
 
-**Last updated: March 2026**
+---
 
+## 🧭 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Reference Modern BI Architecture](#-reference-modern-bi-architecture)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud BI & Analytics**. These tools help organizations connect to data sources, build interactive dashboards, perform ad-hoc analysis, and embed analytics into applications — enabling data-driven decision-making at scale.
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
+The global Cloud Business Intelligence (BI) and analytics market is estimated at **$35 billion to $42 billion in 2026** and projected to exceed **$65 billion by 2030** (growing at a ~13–15% CAGR), driven by data lakehouse adoption, embedded analytics, and generative AI/agentic BI copilot workflows.
 
-**Examples** include Salesforce CRM Analytics (formerly Wave), Tableau Cloud, Microsoft Power BI, Looker, Domo, Qlik Sense, Sisense, ThoughtSpot, GoodData, and Sigma Computing (the category leaders).
+The sector exhibits **moderate fragmentation with high concentration at the top**: mega-cap cloud and business software incumbents (Microsoft, Google Cloud, and Salesforce) capture the lion's share of enterprise desktop and suite deployments through bundled distribution, while an active, fast-growing tier of independent specialized vendors (ThoughtSpot, Sigma Computing, GoodData) and community-driven open-source platforms (Apache Superset, Metabase, Cube, ClickHouse) vigorously compete for warehouse-native, embedded, and developer-first workloads without a single winner-take-all monopoly.
 
+---
 
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom semantic layers, and open analytics pipelines — ideal for organizations seeking transparent, vendor-independent business intelligence.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Product | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -58,116 +57,130 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[Domo](https://www.domo.com/)** | ~$400M Asset Sale / ~$160M Market Cap | $300/month (Standard consumption tier starting package) | 30-day free trial (enterprise capabilities with unlimited credits during evaluation) | Cloud-native BI and data product platform with 1,000+ connectors, Magic ETL, and App Catalyst. |
 | **[GoodData](https://www.gooddata.com/)** | ~$63M ARR / ~$350M Total Funding | $1,500/month (Professional tier platform base fee) | 30-day free trial (GoodData.AI platform with unlimited users and DuckDB/Iceberg integration) | Composable analytics platform with Analytics Lake infrastructure, FlexConnect, and multi-tenant isolation. |
 
+---
 
+## ⚡ Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+*Ranked in descending order by GitHub Stars.*
 
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+  Open-source operational analytics, data visualization, and observability platform (AGPL-3.0). Supports SQL databases, ClickHouse, Prometheus, and multi-source dashboarding with a rich community plugin ecosystem.
 
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+  Enterprise-ready cloud-native BI web application (Apache-2.0). Features an intuitive no-code chart builder, SQL Lab query editor, lightweight semantic layer, granular security permissions, and native connectivity to virtually any SQL database.
 
-- **[Apache Superset](https://github.com/apache/superset)**  
+- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+  High-performance, column-oriented real-time analytical DBMS (Apache-2.0). Powers ultra-low-latency OLAP queries, interactive dashboards, and real-time event analytics over billions of records.
 
-  Modern, enterprise-ready BI web application (Apache-2.0). No-code chart builder, SQL Editor, lightweight semantic layer, and support for nearly any SQL database. Cloud-native architecture designed for scale. One of the most widely adopted open-source BI platforms .
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+  User-friendly self-service business intelligence and dashboarding tool (AGPL-3.0). Features visual query builders for non-technical users, Metabot AI assistance, automated alerts, and seamless embedding into SaaS apps.
 
+- **[Streamlit](https://github.com/streamlit/streamlit)** [![GitHub stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social&color=white)](https://github.com/streamlit/streamlit/stargazers)  
+  Open-source Python framework (Apache-2.0) that turns data scripts into shareable web apps, custom analytical calculators, machine learning interfaces, and exploratory BI dashboards in minutes.
 
+- **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+  Open-source SQL query editor and visualization platform (BSD-2-Clause). Enables analysts to query data sources, build shareable dashboards with auto-refresh schedules, configure alert destinations, and integrate via REST API.
 
-- **[Metabase](https://github.com/metabase/metabase)**  
+- **[Dash (Plotly)](https://github.com/plotly/dash)** [![GitHub stars](https://img.shields.io/github/stars/plotly/dash?style=social&color=white)](https://github.com/plotly/dash/stargazers)  
+  Enterprise-grade framework (MIT) for building interactive analytical web applications in Python, R, and Julia without writing JavaScript. Integrates deeply with Plotly charts and data science pipelines.
 
-  Easy-to-use open-source BI tool (AGPL-3.0) for self-service analytics. Features Query Builder for non-SQL users, Metabot AI assistant, interactive dashboards, granular permissions, and embedding options. Connects to 20+ data sources including PostgreSQL, MySQL, and Snowflake .
+- **[Cube.js](https://github.com/cube-js/cube)** [![GitHub stars](https://img.shields.io/github/stars/cube-js/cube?style=social&color=white)](https://github.com/cube-js/cube/stargazers)  
+  Universal semantic layer and headless BI platform (Apache-2.0). Provides centralized metric definitions, access control, pre-aggregations, SQL API, and GraphQL/REST APIs for building custom data apps and embedded BI.
 
+- **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+  High-performance, real-time analytical database based on MPP architecture (Apache-2.0). Known for extreme simplicity, sub-second reporting over massive tables, and native vector execution.
 
+- **[Apache Druid](https://github.com/apache/druid)** [![GitHub stars](https://img.shields.io/github/stars/apache/druid?style=social&color=white)](https://github.com/apache/druid/stargazers)  
+  Distributed real-time analytics database (Apache-2.0) designed for sub-second streaming analytics and event-driven data architectures. Integrates natively with Apache Kafka and AWS Kinesis.
 
-- **[Redash](https://github.com/getredash/redash)**  
+- **[Jupyter Notebook](https://github.com/jupyter/notebook)** [![GitHub stars](https://img.shields.io/github/stars/jupyter/notebook?style=social&color=white)](https://github.com/jupyter/notebook/stargazers)  
+  Interactive computational notebook environment (BSD-3-Clause) widely adopted for statistical modeling, exploratory data analysis, chart prototyping, and collaborative data storytelling.
 
-  Open-source data visualization and dashboarding tool (BSD-2-Clause). Query editor with schema browser and auto-complete, drag-and-drop visualizations, scheduled refreshes, alerts, and REST API. Designed for SQL users to explore and share data across organizations .
+- **[Trino](https://github.com/trinodb/trino)** [![GitHub stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
+  Fast distributed SQL query engine for big data analytics (Apache-2.0). Executes federated interactive queries against data lakes (S3, Iceberg, Delta Lake), relational databases, and NoSQL systems.
 
+- **[Databend](https://github.com/datafuselabs/databend)** [![GitHub stars](https://img.shields.io/github/stars/datafuselabs/databend)](https://github.com/datafuselabs/databend/stargazers)  
+  Modern cloud-native elastic analytics engine and lakehouse data warehouse written in Rust (Apache-2.0), optimized for object storage and cost-efficient BI workloads.
 
+- **[Evidence](https://github.com/evidence-dev/evidence)** [![GitHub stars](https://img.shields.io/github/stars/evidence-dev/evidence?style=social&color=white)](https://github.com/evidence-dev/evidence/stargazers)  
+  Code-driven business intelligence framework (MIT). Allows engineers to build fast, markdown-based reporting pages with SQL queries, component loops, and version-controlled Git workflows.
 
-- **[Knowage](https://github.com/KnowageLabs/Knowage-Server)**  
+- **[Lightdash](https://github.com/lightdash/lightdash)** [![GitHub stars](https://img.shields.io/github/stars/lightdash/lightdash?style=social&color=white)](https://github.com/lightdash/lightdash/stargazers)  
+  Modern open-source BI platform natively integrated with dbt (MIT). Converts dbt semantic models and YAML schemas into self-serve metrics, exploratory pivot tables, and interactive dashboards.
 
-  Full open-source suite for Business Intelligence and Analytics (AGPL-3.0) by Engineering Group. Modules include Enterprise Reporting, Smart Intelligence for self-service BI, Location Intelligence, Performance Management with KPIs, and Custom Analytics with R/Python integration .
+- **[Rill](https://github.com/rilldata/rill)** [![GitHub stars](https://img.shields.io/github/stars/rilldata/rill?style=social&color=white)](https://github.com/rilldata/rill/stargazers)  
+  Fast operational BI tool and metrics engine built with DuckDB and Apache Arrow (Apache-2.0). Offers instant local profiling, code-based dashboards, and rapid cloud deployment.
 
+- **[Malloy](https://github.com/malloydata/malloy)** [![GitHub stars](https://img.shields.io/github/stars/malloydata/malloy?style=social&color=white)](https://github.com/malloydata/malloy/stargazers)  
+  Experimental open-source data modeling language and query compiler (Apache-2.0) designed by the creators of Looker/LookML to synthesize complex nested aggregations and semantic data models.
 
-
-- **[Apache Druid](https://github.com/apache/druid)**  
-
-  High-performance, real-time analytics database (Apache-2.0) for sub-second queries on streaming and batch data. Features native Kafka/Kinesis integration, SQL support, schema auto-discovery, and elastic architecture for billions to trillions of rows .
-
-
-
-- **[Grafana](https://github.com/grafana/grafana)**  
-
-  Open-source observability and analytics platform (AGPL-3.0). While primarily for monitoring, widely used for BI dashboards with support for SQL databases, Prometheus, and multiple data sources. Extensive plugin ecosystem.
-
-
-
-- **[Lightdash](https://github.com/lightdash/lightdash)**  
-
-  Open-source BI tool built for dbt users (MIT). Transforms dbt models into explorable dashboards, metrics, and self-service analytics. Features CLI-based deployment and developer-first workflow.
-
-
-
-- **[Cube.js](https://github.com/cube-js/cube)**  
-
-  Open-source semantic layer (Apache-2.0) for building data applications. Provides headless BI infrastructure with SQL generation, caching, and API for custom analytics frontends.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Databend](https://github.com/datafuselabs/databend)** — Cloud-native data warehouse with BI capabilities.
-
-- **[Trino](https://github.com/trinodb/trino)** — Distributed SQL query engine for analytics on data lakes.
-
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** — Column-oriented OLAP database for real-time analytics.
-
-- **[Apache Doris](https://github.com/apache/doris)** — MPP-based real-time analytical database.
-
-- **[Jupyter](https://github.com/jupyter/notebook)** — Interactive computing notebooks for data analysis and visualization.
-
-- Community **dbt** packages for semantic modeling and **Streamlit** apps for custom analytics.
-
-
-
-**Frameworks for building custom systems**: Combine **Apache Superset** or **Metabase** as the BI frontend with **Cube.js** for semantic modeling, **Apache Druid** or **ClickHouse** for real-time analytics queries, **dbt** for data transformation, and **PostgreSQL** for metadata — creating a fully self-hosted, enterprise-grade BI stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Analytics data must comply with data protection regulations (GDPR, CCPA, HIPAA, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, resource provisioning, and ongoing maintenance.
-
-
+- **[Knowage](https://github.com/KnowageLabs/Knowage-Server)** [![GitHub stars](https://img.shields.io/github/stars/KnowageLabs/Knowage-Server?style=social&color=white)](https://github.com/KnowageLabs/Knowage-Server/stargazers)  
+  Open-source enterprise business analytics suite (AGPL-3.0). Supports enterprise reporting, self-service ad-hoc analysis, KPI performance cockpits, location intelligence, and predictive scripts.
 
 ---
 
+## 🏗️ Reference Modern BI Architecture
 
+Organizations looking for transparency, vendor autonomy, and high performance frequently combine open components into a custom stack:
 
-**Made for data teams, analysts, engineers, and developers building transparent analytics solutions.**  
+```
+┌────────────────────────────────────────────────────────┐
+│                   BI & User Interface                  │
+│       Apache Superset  •  Metabase  •  Evidence        │
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────▼────────────────────────────┐
+│                  Semantic & Metric Layer               │
+│                  Cube.js  •  Lightdash  •  dbt          │
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────▼────────────────────────────┐
+│              High-Speed Real-Time OLAP / SQL           │
+│        ClickHouse  •  Trino  •  Apache Druid / Doris   │
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────▼────────────────────────────┐
+│               Storage & Lakehouse Foundations          │
+│        Apache Iceberg  •  Delta Lake  •  S3 / GCS      │
+└────────────────────────────────────────────────────────┘
+```
 
-Let's make cloud BI and analytics more open, data-driven, and accessible.
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To suggest a new tool, report pricing updates, or refine categories:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/add-new-tool`.
+3. 📝 Update `README.md` following the standard table or list format with accurate citations and factual descriptions.
+4. 🚀 Push your branch and open a **Pull Request**.
+
+---
+
+## 💖 Support
+
+If you find this curated Cloud BI and Analytics collection helpful:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** it with your data engineering, analytics, and BI communities.
+- ☕ **Support future development:** If this project saved you time or added value to your research, you can support ongoing curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-BI-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-BI-Analytics&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+- This is a community-curated directory intended for educational, comparative, and architectural research purposes.
+- Product names, logos, and trademarks belong to their respective corporate owners.
+- SaaS prices and feature limits change periodically; always verify current production terms on each vendor's official pricing portal.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for modern data teams, analytics engineers, and open-source advocates.</b>
+</div>
