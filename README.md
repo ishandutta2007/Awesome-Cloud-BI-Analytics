@@ -45,65 +45,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce CRM Analytics (Wave)](https://www.salesforce.com/analytics/)**  
-
-  Salesforce's native BI platform for CRM data. Formerly known as Wave Analytics, Einstein Analytics, and Tableau CRM. Provides dashboards, dataflows, and AI-powered insights directly on Salesforce data .
-
-
-
-- **[Tableau Cloud](https://www.tableau.com/products/cloud-bi)**  
-
-  Fully hosted, agentic analytics solution with Tableau Agent and Tableau Pulse. Features AI-powered insights delivered to Slack, Teams, and email, plus Tableau Bridge for hybrid data connectivity .
-
-
-
-- **[Microsoft Power BI](https://powerbi.microsoft.com/)**  
-
-  Microsoft's business analytics platform integrated with Microsoft Fabric. Features Power BI Desktop for authoring, Power BI Service for sharing, Copilot AI assistance, and Direct Lake mode for querying OneLake without data import .
-
-
-
-- **[Looker (Google Cloud)](https://looker.com/)**  
-
-  Google Cloud's enterprise BI platform built on LookML, a code-based semantic modeling language. Features Git integration for version control, embedded analytics, and API-driven customization .
-
-
-
-- **[Domo](https://www.domo.com/)**  
-
-  Cloud-native BI and data product platform with 1,000+ connectors. Features Magic ETL for data transformation, App Catalyst for pro-code apps, and AI-driven workflows integrated with Google Cloud Vertex AI .
-
-
-
-- **[Qlik Sense](https://www.qlik.com/)**  
-
-  Associative analytics platform with Qlik Sense Enterprise, Qlik Cloud Analytics, and Qlik Analytics Platform. Features self-service visualization, guided analytics, and embedded analytics with open APIs .
-
-
-
-- **[Sisense](https://www.sisense.com/)**  
-
-  BI and analytics platform for embedded analytics. Features ElastiCube for in-memory data blending, BloX widget framework for custom dashboards, and AI-powered predictive analytics .
-
-
-
-- **[ThoughtSpot](https://www.thoughtspot.com/)**  
-
-  Agentic analytics platform with Spotter 3 AI agent. Features natural language search, embedded analytics via SDK/API/MCP, and unified structured and unstructured data analysis .
-
-
-
-- **[GoodData](https://www.gooddata.com/)**  
-
-  Composable analytics platform with Analytics Lake infrastructure. Features Apache Iceberg and DuckDB integration, FlexConnect for custom data connectors, and multi-tenant workspace isolation .
-
-
-
-- **[Sigma Computing](https://www.sigmacomputing.com/)**  
-
-  Cloud-native analytics platform sitting on top of Snowflake, Databricks, and BigQuery. Features spreadsheet-like interface for business users, warehouse-native governance, and Sigma Agents for autonomous workflows .
+| Product | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | ~$3.1T Market Cap (Microsoft) | $10/user/month (Power BI Pro) | Free forever (Power BI Desktop: local authoring and personal reporting, no cloud sharing/collaboration) | Business analytics platform integrated with Microsoft Fabric. Features Power BI Desktop, Power BI Service, Copilot AI, and Direct Lake mode. |
+| **[Looker (Google Cloud)](https://looker.com/)** | ~$2.1T Market Cap (Alphabet) | $35,000/year (~$2,917/month base platform fee; Looker Studio Pro is $9/user/month) | 30-day free trial on Google Cloud with $300 trial credits; Looker Studio core is free with basic connector limits | Enterprise BI platform built on LookML semantic modeling language. Features Git integration, embedded analytics, and API governance. |
+| **[Salesforce CRM Analytics (Wave)](https://www.salesforce.com/analytics/)** | ~$280B Market Cap (Salesforce) | $140/user/month (CRM Analytics Growth, billed annually) | 30-day free trial (pre-configured Salesforce environment with sample CRM analytics data) | Salesforce's native BI platform for CRM data. Features dashboards, dataflows, and AI-powered insights directly on Salesforce data. |
+| **[Tableau Cloud](https://www.tableau.com/products/cloud-bi)** | ~$15.7B Acquisition Value (Salesforce) | $15/user/month (Tableau Viewer; Creator starts at $75/user/month, billed annually) | 14-day free trial (full Tableau Cloud features, web authoring, and Tableau Pulse) | Fully hosted analytics solution with Tableau Agent and Tableau Pulse. Features hybrid data connectivity via Tableau Bridge. |
+| **[Qlik Sense](https://www.qlik.com/)** | ~$10B+ Valuation (Thoma Bravo) | $30/user/month (Standard plan, min. 20 users / billed annually) | 30-day free trial (full Qlik Cloud Analytics capabilities, up to 5GB in-memory data capacity) | Associative analytics engine with self-service visualization, guided analytics, and embedded analytics with open APIs. |
+| **[ThoughtSpot](https://www.thoughtspot.com/)** | ~$4.5B Valuation (Latest round) | $25/user/month (Essentials plan, billed annually) | 30-day free trial (access to Spotter AI agent, Search, and live query connections) | Agentic analytics platform with Spotter 3 AI agent. Features natural language search and embedded analytics via SDK/API/MCP. |
+| **[Sigma Computing](https://www.sigmacomputing.com/)** | ~$1.5B Valuation (Series D) | $15,000/year (Starter package; ~$1,250/month equivalent for Creator seats) | 14-day free trial (full live warehouse querying with sample datasets or connected cloud DWH) | Cloud-native analytics platform sitting directly on Snowflake, Databricks, and BigQuery with spreadsheet-like interface. |
+| **[Sisense](https://www.sisense.com/)** | ~$1.0B Valuation (Unicorn valuation) | $10,000/year (~$833/month equivalent, base self-serve package) | 14-day free trial (access to web modeler, ElastiCube, and sample dashboard builders) | BI and analytics platform designed for embedded analytics. Features ElastiCube in-memory engine and BloX widget framework. |
+| **[Domo](https://www.domo.com/)** | ~$400M Asset Sale / ~$160M Market Cap | $300/month (Standard consumption tier starting package) | 30-day free trial (enterprise capabilities with unlimited credits during evaluation) | Cloud-native BI and data product platform with 1,000+ connectors, Magic ETL, and App Catalyst. |
+| **[GoodData](https://www.gooddata.com/)** | ~$63M ARR / ~$350M Total Funding | $1,500/month (Professional tier platform base fee) | 30-day free trial (GoodData.AI platform with unlimited users and DuckDB/Iceberg integration) | Composable analytics platform with Analytics Lake infrastructure, FlexConnect, and multi-tenant isolation. |
 
 
 
